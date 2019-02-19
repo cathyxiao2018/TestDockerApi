@@ -4,11 +4,11 @@ EXPOSE 80
 
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /src
-COPY ["TestDockerOnLinux/TestDockerOnLinux.csproj", "TestDockerOnLinux/"]
+COPY ["./TestDockerOnLinux.csproj", "./"]
 COPY ["TestDockerOnLinux.Domain/TestDockerOnLinux.Domain.csproj", "TestDockerOnLinux.Domain/"]
 COPY ["TestDockerOnLinux.Repository/TestDockerOnLinux.Repository.csproj", "TestDockerOnLinux.Repository/"]
 COPY ["TestDockerOnLinux.Core/TestDockerOnLinux.Core.csproj", "TestDockerOnLinux.Core/"]
-RUN dotnet restore "TestDockerOnLinux/TestDockerOnLinux.Api.csproj"
+RUN dotnet restore "./TestDockerOnLinux.csproj"
 COPY . .
 WORKDIR "/src/TestDockerOnLinux"
 RUN dotnet build "TestDockerOnLinux.Api.csproj" -c Release -o /app

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDockerOnLinux.Api", "testdockerapi\TestDockerOnLinux.Api.csproj", "{5868E49E-3908-412E-BD9B-DB503808D929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDockerOnLinux", "TestDockerOnLinux\TestDockerOnLinux.csproj", "{5868E49E-3908-412E-BD9B-DB503808D929}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDockerOnLinux.Core", "TestDockerOnLinux.Core\TestDockerOnLinux.Core.csproj", "{98B8C4BC-4793-465E-B162-B7DD1E59B938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDockerOnLinux.Core", "TestDockerOnLinux.Core\TestDockerOnLinux.Core.csproj", "{98B8C4BC-4793-465E-B162-B7DD1E59B938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDockerOnLinux.Domain", "TestDockerOnLinux.Domain\TestDockerOnLinux.Domain.csproj", "{B89B86A3-5A4F-4A5E-AEC5-C4E9C9F5AC17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDockerOnLinux.Domain", "TestDockerOnLinux.Domain\TestDockerOnLinux.Domain.csproj", "{B89B86A3-5A4F-4A5E-AEC5-C4E9C9F5AC17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDockerOnLinux.Repository", "TestDockerOnLinux.Repository\TestDockerOnLinux.Repository.csproj", "{E317DB94-6AEC-48E5-9390-274D031D303B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDockerOnLinux.Repository", "TestDockerOnLinux.Repository\TestDockerOnLinux.Repository.csproj", "{E317DB94-6AEC-48E5-9390-274D031D303B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
